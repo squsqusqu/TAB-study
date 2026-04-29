@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(51, 60, 77);
+    margin: 0;
+    align-items: center;
+    position: relative;
+}
+.container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+}
+/*google logo*/
+h1{
+    color: white;
+    font-size: 85px;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+}
+/*serach bar*/
+.item2{
+    height: 30px;
+    width: 480px;
+    border: 0.5px solid white;
+    border-radius: 50px;
+    position: absolute;
+    top: 350px;
+}
+#icon{
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    top: 7px;
+}
+.glass i{
+    position: absolute;
+    left: 9px;
+}
+.keyboard i{
+    position: absolute;
+    left: 400px;
+}
+.mic i{
+    position: absolute;
+    left: 430px;
+}
+.camera i{
+    position: absolute;
+    left: 455px;
+}
+#line{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size: 14px;
+    top: 2%;
+    left: 1%;
+}
+#line2{
+    display: flex;
+    position: absolute;
+    gap: 15px;
+    font-family: "Noto Sans", sans-serif;
+    color: white;
+    font-size: 14px;
+    top: 2%;
+    left: 82.5%;
+}
+.item5{
+    display:flex;
+    position:absolute;
+    color: white;
+    top: 2.2%;
+    left: 90.5%;
+}
+#add{
+ background-color: #73ADFF;
+ border: none;
+ width: 90px;
+ height: 30px;
+ border-radius: 5px;
+ position: absolute;
+ top: 1%;
+ left: 93%;
+}
+.button1{
+    background-color: rgb(51, 60, 77);
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    height: 40px;
+    width: 100px;
+    top: 71%;
+    left: 42%;
+}
+.button2{
+    background-color: rgb(51, 60, 77);
+    color: white;
+    position: absolute;
+    font-size: 13px;
+    height: 40px;
+    width: 130px;
+    top: 71%;
+    left: 50%
+}

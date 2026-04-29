@@ -1,0 +1,179 @@
+body{
+    position: relative;
+    margin:0;
+    padding: 0;
+}
+.container{
+    display:flex;
+    background-color:#dbdfe4;;
+    height: 750px;
+    width: 350px;
+    position:absolute;
+    left: 20%;
+}
+.item1{
+    background-color:rgb(255, 255, 255);
+    height: 720px;
+    width:320px;
+    position:absolute;
+    top: 2%;
+    left: 4%;
+    border: 1px solid gray;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position:absolute;
+    left: 37%;
+    top: 5%;
+}
+.img i{
+    position: static;
+    z-index: 10;
+    left: 25%;
+    top: 25%;
+}
+.xmark {
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    z-index: 10;
+}
+.xmark i {
+    font-size: 13px;
+}
+.play {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 280px;
+    left: 9%;
+    z-index: 10;
+    border: 1px solid black;
+    border-radius: 0.7em;
+    display: flex; /* 내부 요소 정렬을 위해 추가 */
+    align-items: center;
+    justify-content: center;
+}
+
+/* PLAY 버튼 안의 아이콘과 텍스트 위치 초기화 */
+.play i, .play .pl {
+    position: static; 
+    margin: 0 5px;
+}
+
+.heart, .add {
+    border: 1px solid black;
+    border-radius: 5em;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 280px;
+    display: flex; /* 중앙 정렬을 위해 추가 */
+    align-items: center;
+    justify-content: center;
+}
+
+/* 하트와 플러스 안의 아이콘 위치 초기화 */
+.heart i, .add i {
+    position: static; 
+}
+
+.heart { left: 50%; }
+.add { left: 72%; }
+/*biggest album cover*/
+.no-wrap{
+    white-space: nowrap;
+}
+.item2{
+    background-color:#79c4ec;
+    height: 140px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 0.7em;
+    position: absolute;
+    top: 17.5%;
+    left: 9%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    position:absolute;
+    bottom: 25%;
+    left: 125%;
+}
+p1{
+    font-weight: bold;
+    bottom: 3%;
+}
+/*album covers*/
+#square{
+    height: 50px;
+    width: 50px;
+    position:absolute;
+    border: 1px solid black;
+    border-radius: 0.3em;
+    left: 13%;
+}
+/*song name*/
+#song{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    left: 120%;;
+    white-space: nowrap;
+}
+/*singer name*/
+#name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    position: absolute;
+    left: 120%;
+    top: 25px;
+    white-space: nowrap;
+}
+.item3{
+    background-color:#19fff7;
+    top: 380px;
+}
+p2{
+    bottom: 63%;
+}
+p3{
+    bottom: 3%;
+}
+.item4{
+    background-color:#15dbc1;
+    top:470px;
+}
+p4{
+    bottom: 63%;
+}
+p5{
+    bottom: 3%;
+}
+.item5{
+    background-color: #10b6be;
+    top: 560px;
+}
+p6{
+    bottom: 63%;
+}
+p7{
+    bottom: 3%;
+}
+.item6{
+    background-color:#106966;
+
+}
+p8{
+    bottom: 63%;
+}
+p9{
+    bottom: 3%;
+}
